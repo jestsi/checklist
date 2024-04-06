@@ -1,0 +1,35 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
+  "author": "Gest Se <gestjobm@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.2.1",
+    "pinia": "^2.0.11",
+    "quasar": "^2.8.0",
+    "sweetalert2": "^11.10.7",
+    "vue": "^3.2.29",
+    "vue-cookie": "^1.1.4",
+    "vue-fontawesome": "^0.0.2",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.4.3",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
